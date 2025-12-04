@@ -1,6 +1,6 @@
 # Product Management Frontend
 
-A modern Next.js 15 application with TypeScript, Redux Toolkit, and Tailwind CSS for product management with analytics dashboard.
+A modern Next.js 16 application with TypeScript, Redux Toolkit, and Tailwind CSS for product management with analytics dashboard.
 
 ## Features
 
