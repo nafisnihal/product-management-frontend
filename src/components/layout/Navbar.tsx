@@ -1,21 +1,20 @@
 "use client";
 
-import Link from "next/link";
-import { usePathname, useRouter } from "next/navigation";
-import { useAppSelector, useAppDispatch } from "@/store/hooks";
-import { useLogoutMutation } from "@/store/api/authApi";
-import { logout as logoutAction } from "@/store/slices/authSlice";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
-  DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { Package, BarChart3, User, LogOut } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import { useLogoutMutation } from "@/store/api/authApi";
+import { useAppDispatch, useAppSelector } from "@/store/hooks";
+import { logout as logoutAction } from "@/store/slices/authSlice";
+import { BarChart3, LogOut, Package, User } from "lucide-react";
+import Link from "next/link";
+import { usePathname, useRouter } from "next/navigation";
 
 export function Navbar() {
   const pathname = usePathname();
@@ -88,8 +87,6 @@ export function Navbar() {
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent align="end">
-              <DropdownMenuLabel>My Account</DropdownMenuLabel>
-              <DropdownMenuSeparator />
               <DropdownMenuItem disabled>{user?.email}</DropdownMenuItem>
               <DropdownMenuSeparator />
               <DropdownMenuItem onClick={handleLogout} className="text-red-600">
