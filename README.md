@@ -94,12 +94,6 @@ NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=your_measurement_id
    - Register your app and copy the configuration values
    - Update your `.env.local` file with these values
 
-4. **Setup Firestore Collections**:
-   The application expects the following Firestore collections:
-   - `products` - Stores product information
-   - `categories` - Stores product categories
-   - `analytics` - Stores analytics data
-
 ## Running the Application
 
 ```bash
@@ -209,9 +203,9 @@ product-management-frontend/
 
 ### Core Framework
 
-- **Next.js 15** - React framework with App Router
-- **React 19** - UI library
-- **TypeScript** - Type safety
+- **Next.js 16** 
+- **React 19** 
+- **TypeScript** 
 
 ### Database & Backend
 
