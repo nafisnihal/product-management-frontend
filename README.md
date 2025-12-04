@@ -8,14 +8,12 @@ A modern Next.js 15 application with TypeScript, Redux Toolkit, and Tailwind CSS
 - 🔥 **Real-time data storage with Firebase Firestore**
 - 📊 Analytics dashboard with interactive charts
 - 📱 Responsive design with Tailwind CSS
-- ⚡ Next.js 15 with App Router and React Server Components
+- ⚡ Next.js 15 with App Router
 - 🎨 Beautiful UI components with shadcn/ui
 - 📈 Real-time data visualization with Recharts
 - 🔄 State management with Redux Toolkit
-- 🌙 Dark mode support
 - 📝 Form validation with React Hook Form + Zod
 - 🎯 TypeScript for type safety
-- ⚡ Real-time data synchronization across all clients
 
 ## Prerequisites
 
